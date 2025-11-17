@@ -1,0 +1,506 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1611pt" height="930pt" viewBox="0.00 0.00 1611.00 930.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 926.11)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-926.11 1606.84,-926.11 1606.84,4 -4,4"/>
+<!-- file_00_common_hpo_paramset_py -->
+<g id="node1" class="node">
+<title>file_00_common_hpo_paramset_py</title>
+<ellipse fill="none" stroke="black" cx="203.03" cy="-904.11" rx="150.5" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="203.03" y="-899.91" font-family="Times,serif" font-size="14.00">file_00_common_hpo_paramset_py</text>
+</g>
+<!-- hyperparam_configs_5000_parquet -->
+<g id="node2" class="node">
+<title>hyperparam_configs_5000_parquet</title>
+<ellipse fill="none" stroke="black" cx="203.03" cy="-832.11" rx="148.34" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="203.03" y="-827.91" font-family="Times,serif" font-size="14.00">hyperparam_configs_5000_parquet</text>
+</g>
+<!-- file_00_common_hpo_paramset_py&#45;&gt;hyperparam_configs_5000_parquet -->
+<g id="edge1" class="edge">
+<title>file_00_common_hpo_paramset_py-&gt;hyperparam_configs_5000_parquet</title>
+<path fill="none" stroke="black" d="M203.03,-885.8C203.03,-878.51 203.03,-869.83 203.03,-861.64"/>
+<polygon fill="black" stroke="black" points="206.53,-861.73 203.03,-851.73 199.53,-861.73 206.53,-861.73"/>
+</g>
+<!-- file_01_create_yaml_for_data_scenario_tasks_py -->
+<g id="node4" class="node">
+<title>file_01_create_yaml_for_data_scenario_tasks_py</title>
+<ellipse fill="none" stroke="black" cx="203.03" cy="-760.11" rx="203.03" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="203.03" y="-755.91" font-family="Times,serif" font-size="14.00">file_01_create_yaml_for_data_scenario_tasks_py</text>
+</g>
+<!-- hyperparam_configs_5000_parquet&#45;&gt;file_01_create_yaml_for_data_scenario_tasks_py -->
+<g id="edge4" class="edge">
+<title>hyperparam_configs_5000_parquet-&gt;file_01_create_yaml_for_data_scenario_tasks_py</title>
+<path fill="none" stroke="black" d="M203.03,-813.8C203.03,-806.51 203.03,-797.83 203.03,-789.64"/>
+<polygon fill="black" stroke="black" points="206.53,-789.73 203.03,-779.73 199.53,-789.73 206.53,-789.73"/>
+</g>
+<!-- hp_combinations_3000 -->
+<g id="node3" class="node">
+<title>hp_combinations_3000</title>
+<ellipse fill="none" stroke="black" cx="610.03" cy="-904.11" rx="101.7" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="610.03" y="-899.91" font-family="Times,serif" font-size="14.00">hp_combinations_3000</text>
+</g>
+<!-- hp_combinations_3000&#45;&gt;file_01_create_yaml_for_data_scenario_tasks_py -->
+<g id="edge2" class="edge">
+<title>hp_combinations_3000-&gt;file_01_create_yaml_for_data_scenario_tasks_py</title>
+<path fill="none" stroke="black" d="M566.75,-887.46C516.96,-869.51 432.72,-839.31 360.03,-814.11 328.58,-803.2 293.48,-791.33 264.46,-781.59"/>
+<polygon fill="black" stroke="black" points="265.69,-778.3 255.09,-778.44 263.46,-784.94 265.69,-778.3"/>
+</g>
+<!-- varix -->
+<g id="node6" class="node">
+<title>varix</title>
+<ellipse fill="none" stroke="black" cx="610.03" cy="-832.11" rx="30.88" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="610.03" y="-827.91" font-family="Times,serif" font-size="14.00">varix</text>
+</g>
+<!-- hp_combinations_3000&#45;&gt;varix -->
+<g id="edge5" class="edge">
+<title>hp_combinations_3000-&gt;varix</title>
+<path fill="none" stroke="black" d="M610.03,-885.8C610.03,-878.51 610.03,-869.83 610.03,-861.64"/>
+<polygon fill="black" stroke="black" points="613.53,-861.73 610.03,-851.73 606.53,-861.73 613.53,-861.73"/>
+</g>
+<!-- vanillix -->
+<g id="node7" class="node">
+<title>vanillix</title>
+<ellipse fill="none" stroke="black" cx="699.03" cy="-832.11" rx="40.54" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="699.03" y="-827.91" font-family="Times,serif" font-size="14.00">vanillix</text>
+</g>
+<!-- hp_combinations_3000&#45;&gt;vanillix -->
+<g id="edge6" class="edge">
+<title>hp_combinations_3000-&gt;vanillix</title>
+<path fill="none" stroke="black" d="M631.57,-886.16C643.41,-876.85 658.24,-865.19 670.97,-855.17"/>
+<polygon fill="black" stroke="black" points="672.92,-858.1 678.61,-849.16 668.59,-852.6 672.92,-858.1"/>
+</g>
+<!-- yaml_30000_for_autoencodix -->
+<g id="node5" class="node">
+<title>yaml_30000_for_autoencodix</title>
+<ellipse fill="none" stroke="black" cx="644.03" cy="-688.11" rx="127.43" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="644.03" y="-683.91" font-family="Times,serif" font-size="14.00">yaml_30000_for_autoencodix</text>
+</g>
+<!-- file_01_create_yaml_for_data_scenario_tasks_py&#45;&gt;yaml_30000_for_autoencodix -->
+<g id="edge3" class="edge">
+<title>file_01_create_yaml_for_data_scenario_tasks_py-&gt;yaml_30000_for_autoencodix</title>
+<path fill="none" stroke="black" d="M299.26,-743.83C373.87,-731.99 476.66,-715.67 550.56,-703.94"/>
+<polygon fill="black" stroke="black" points="550.89,-707.44 560.21,-702.41 549.79,-700.52 550.89,-707.44"/>
+</g>
+<!-- TUD_Cluster -->
+<g id="node14" class="node">
+<title>TUD_Cluster</title>
+<ellipse fill="none" stroke="black" cx="757.03" cy="-616.11" rx="63.61" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="757.03" y="-611.91" font-family="Times,serif" font-size="14.00">TUD_Cluster</text>
+</g>
+<!-- yaml_30000_for_autoencodix&#45;&gt;TUD_Cluster -->
+<g id="edge23" class="edge">
+<title>yaml_30000_for_autoencodix-&gt;TUD_Cluster</title>
+<path fill="none" stroke="black" d="M671.38,-670.16C686.53,-660.78 705.52,-649.01 721.77,-638.95"/>
+<polygon fill="black" stroke="black" points="723.53,-641.98 730.19,-633.73 719.85,-636.02 723.53,-641.98"/>
+</g>
+<!-- tcga_rna -->
+<g id="node8" class="node">
+<title>tcga_rna</title>
+<ellipse fill="none" stroke="black" cx="930.03" cy="-760.11" rx="44.28" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="930.03" y="-755.91" font-family="Times,serif" font-size="14.00">tcga_rna</text>
+</g>
+<!-- varix&#45;&gt;tcga_rna -->
+<g id="edge7" class="edge">
+<title>varix-&gt;tcga_rna</title>
+<path fill="none" stroke="black" d="M633.18,-819.87C638.31,-817.71 643.78,-815.64 649.03,-814.11 747.08,-785.47 776.6,-801.51 876.03,-778.11 879.32,-777.33 882.7,-776.46 886.09,-775.53"/>
+<polygon fill="black" stroke="black" points="886.75,-778.98 895.38,-772.83 884.8,-772.26 886.75,-778.98"/>
+</g>
+<!-- tcga_meth -->
+<g id="node9" class="node">
+<title>tcga_meth</title>
+<ellipse fill="none" stroke="black" cx="475.03" cy="-760.11" rx="51.26" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="475.03" y="-755.91" font-family="Times,serif" font-size="14.00">tcga_meth</text>
+</g>
+<!-- varix&#45;&gt;tcga_meth -->
+<g id="edge8" class="edge">
+<title>varix-&gt;tcga_meth</title>
+<path fill="none" stroke="black" d="M587.43,-819.39C567.16,-808.88 537.01,-793.24 513.03,-780.81"/>
+<polygon fill="black" stroke="black" points="514.68,-777.72 504.19,-776.23 511.46,-783.94 514.68,-777.72"/>
+</g>
+<!-- tcga_dna -->
+<g id="node10" class="node">
+<title>tcga_dna</title>
+<ellipse fill="none" stroke="black" cx="590.03" cy="-760.11" rx="45.89" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="590.03" y="-755.91" font-family="Times,serif" font-size="14.00">tcga_dna</text>
+</g>
+<!-- varix&#45;&gt;tcga_dna -->
+<g id="edge9" class="edge">
+<title>varix-&gt;tcga_dna</title>
+<path fill="none" stroke="black" d="M605.19,-814.16C603.06,-806.71 600.5,-797.75 598.09,-789.33"/>
+<polygon fill="black" stroke="black" points="601.49,-788.49 595.38,-779.84 594.76,-790.42 601.49,-788.49"/>
+</g>
+<!-- schc_rna -->
+<g id="node11" class="node">
+<title>schc_rna</title>
+<ellipse fill="none" stroke="black" cx="699.03" cy="-760.11" rx="45.35" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="699.03" y="-755.91" font-family="Times,serif" font-size="14.00">schc_rna</text>
+</g>
+<!-- varix&#45;&gt;schc_rna -->
+<g id="edge10" class="edge">
+<title>varix-&gt;schc_rna</title>
+<path fill="none" stroke="black" d="M627.61,-817.28C639.83,-807.67 656.38,-794.65 670.48,-783.56"/>
+<polygon fill="black" stroke="black" points="672.43,-786.48 678.12,-777.55 668.1,-780.98 672.43,-786.48"/>
+</g>
+<!-- schc_meth -->
+<g id="node12" class="node">
+<title>schc_meth</title>
+<ellipse fill="none" stroke="black" cx="815.03" cy="-760.11" rx="52.33" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="815.03" y="-755.91" font-family="Times,serif" font-size="14.00">schc_meth</text>
+</g>
+<!-- varix&#45;&gt;schc_meth -->
+<g id="edge11" class="edge">
+<title>varix-&gt;schc_meth</title>
+<path fill="none" stroke="black" d="M633.8,-820.29C638.79,-818.15 644.05,-815.98 649.03,-814.11 687.44,-799.65 731.76,-785.63 764.94,-775.65"/>
+<polygon fill="black" stroke="black" points="765.71,-779.07 774.29,-772.85 763.7,-772.36 765.71,-779.07"/>
+</g>
+<!-- vanillix&#45;&gt;tcga_rna -->
+<g id="edge12" class="edge">
+<title>vanillix-&gt;tcga_rna</title>
+<path fill="none" stroke="black" d="M732.02,-821.38C767.6,-810.85 825.89,-793.5 876.03,-778.11 878.92,-777.22 881.9,-776.3 884.91,-775.36"/>
+<polygon fill="black" stroke="black" points="885.83,-778.74 894.33,-772.42 883.74,-772.06 885.83,-778.74"/>
+</g>
+<!-- vanillix&#45;&gt;tcga_meth -->
+<g id="edge13" class="edge">
+<title>vanillix-&gt;tcga_meth</title>
+<path fill="none" stroke="black" d="M667.99,-820.13C662.04,-818.08 655.85,-816 650.03,-814.11 607.94,-800.44 559.79,-785.94 524.67,-775.57"/>
+<polygon fill="black" stroke="black" points="525.78,-772.25 515.2,-772.78 523.8,-778.96 525.78,-772.25"/>
+</g>
+<!-- vanillix&#45;&gt;tcga_dna -->
+<g id="edge14" class="edge">
+<title>vanillix-&gt;tcga_dna</title>
+<path fill="none" stroke="black" d="M676.71,-816.77C661.05,-806.72 639.86,-793.11 622.36,-781.87"/>
+<polygon fill="black" stroke="black" points="624.65,-779.18 614.35,-776.72 620.87,-785.07 624.65,-779.18"/>
+</g>
+<!-- vanillix&#45;&gt;schc_rna -->
+<g id="edge15" class="edge">
+<title>vanillix-&gt;schc_rna</title>
+<path fill="none" stroke="black" d="M699.03,-813.8C699.03,-806.51 699.03,-797.83 699.03,-789.64"/>
+<polygon fill="black" stroke="black" points="702.53,-789.73 699.03,-779.73 695.53,-789.73 702.53,-789.73"/>
+</g>
+<!-- vanillix&#45;&gt;schc_meth -->
+<g id="edge16" class="edge">
+<title>vanillix-&gt;schc_meth</title>
+<path fill="none" stroke="black" d="M722.5,-816.94C739.11,-806.92 761.67,-793.31 780.34,-782.04"/>
+<polygon fill="black" stroke="black" points="781.93,-785.17 788.69,-777 778.32,-779.17 781.93,-785.17"/>
+</g>
+<!-- tcga_rna&#45;&gt;yaml_30000_for_autoencodix -->
+<g id="edge17" class="edge">
+<title>tcga_rna-&gt;yaml_30000_for_autoencodix</title>
+<path fill="none" stroke="black" d="M896.45,-748.08C889.72,-746 882.67,-743.91 876.03,-742.11 826.22,-728.6 769.78,-715.66 725.04,-705.94"/>
+<polygon fill="black" stroke="black" points="725.93,-702.55 715.41,-703.86 724.45,-709.39 725.93,-702.55"/>
+</g>
+<!-- tcga_meth&#45;&gt;yaml_30000_for_autoencodix -->
+<g id="edge18" class="edge">
+<title>tcga_meth-&gt;yaml_30000_for_autoencodix</title>
+<path fill="none" stroke="black" d="M507.21,-745.78C531.67,-735.65 565.77,-721.52 593.8,-709.91"/>
+<polygon fill="black" stroke="black" points="594.92,-713.24 602.82,-706.18 592.24,-706.77 594.92,-713.24"/>
+</g>
+<!-- tcga_dna&#45;&gt;yaml_30000_for_autoencodix -->
+<g id="edge19" class="edge">
+<title>tcga_dna-&gt;yaml_30000_for_autoencodix</title>
+<path fill="none" stroke="black" d="M602.83,-742.52C609.12,-734.36 616.86,-724.33 623.92,-715.17"/>
+<polygon fill="black" stroke="black" points="626.69,-717.32 630.02,-707.26 621.15,-713.04 626.69,-717.32"/>
+</g>
+<!-- schc_rna&#45;&gt;yaml_30000_for_autoencodix -->
+<g id="edge20" class="edge">
+<title>schc_rna-&gt;yaml_30000_for_autoencodix</title>
+<path fill="none" stroke="black" d="M686,-742.52C679.52,-734.27 671.54,-724.12 664.28,-714.88"/>
+<polygon fill="black" stroke="black" points="667.22,-712.95 658.29,-707.25 661.71,-717.28 667.22,-712.95"/>
+</g>
+<!-- schc_meth&#45;&gt;yaml_30000_for_autoencodix -->
+<g id="edge21" class="edge">
+<title>schc_meth-&gt;yaml_30000_for_autoencodix</title>
+<path fill="none" stroke="black" d="M782.46,-745.78C757.72,-735.65 723.22,-721.52 694.85,-709.91"/>
+<polygon fill="black" stroke="black" points="696.29,-706.72 685.71,-706.17 693.64,-713.2 696.29,-706.72"/>
+</g>
+<!-- autoencodix_venv -->
+<g id="node13" class="node">
+<title>autoencodix_venv</title>
+<ellipse fill="none" stroke="black" cx="871.03" cy="-688.11" rx="81.83" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="871.03" y="-683.91" font-family="Times,serif" font-size="14.00">autoencodix_venv</text>
+</g>
+<!-- autoencodix_venv&#45;&gt;TUD_Cluster -->
+<g id="edge22" class="edge">
+<title>autoencodix_venv-&gt;TUD_Cluster</title>
+<path fill="none" stroke="black" d="M844.3,-670.7C828.79,-661.17 809.06,-649.06 792.29,-638.76"/>
+<polygon fill="black" stroke="black" points="794.45,-635.98 784.1,-633.73 790.79,-641.94 794.45,-635.98"/>
+</g>
+<!-- results_30000 -->
+<g id="node15" class="node">
+<title>results_30000</title>
+<ellipse fill="none" stroke="black" cx="757.03" cy="-544.11" rx="65.22" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="757.03" y="-539.91" font-family="Times,serif" font-size="14.00">results_30000</text>
+</g>
+<!-- TUD_Cluster&#45;&gt;results_30000 -->
+<g id="edge24" class="edge">
+<title>TUD_Cluster-&gt;results_30000</title>
+<path fill="none" stroke="black" d="M757.03,-597.8C757.03,-590.51 757.03,-581.83 757.03,-573.64"/>
+<polygon fill="black" stroke="black" points="760.53,-573.73 757.03,-563.73 753.53,-573.73 760.53,-573.73"/>
+</g>
+<!-- zip -->
+<g id="node16" class="node">
+<title>zip</title>
+<ellipse fill="none" stroke="black" cx="488.03" cy="-472.11" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="488.03" y="-467.91" font-family="Times,serif" font-size="14.00">zip</text>
+</g>
+<!-- results_30000&#45;&gt;zip -->
+<g id="edge25" class="edge">
+<title>results_30000-&gt;zip</title>
+<path fill="none" stroke="black" d="M701.95,-534.08C654.13,-525.41 583.44,-510.62 524.03,-490.11 522.48,-489.57 520.9,-488.99 519.33,-488.37"/>
+<polygon fill="black" stroke="black" points="520.99,-485.28 510.42,-484.56 518.23,-491.71 520.99,-485.28"/>
+</g>
+<!-- ml_task_performance_txt -->
+<g id="node19" class="node">
+<title>ml_task_performance_txt</title>
+<ellipse fill="none" stroke="black" cx="757.03" cy="-472.11" rx="110.26" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="757.03" y="-467.91" font-family="Times,serif" font-size="14.00">ml_task_performance_txt</text>
+</g>
+<!-- results_30000&#45;&gt;ml_task_performance_txt -->
+<g id="edge28" class="edge">
+<title>results_30000-&gt;ml_task_performance_txt</title>
+<path fill="none" stroke="black" d="M757.03,-525.8C757.03,-518.51 757.03,-509.83 757.03,-501.64"/>
+<polygon fill="black" stroke="black" points="760.53,-501.73 757.03,-491.73 753.53,-501.73 760.53,-501.73"/>
+</g>
+<!-- out_logfile -->
+<g id="node20" class="node">
+<title>out_logfile</title>
+<ellipse fill="none" stroke="black" cx="939.03" cy="-472.11" rx="53.41" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="939.03" y="-467.91" font-family="Times,serif" font-size="14.00">out_logfile</text>
+</g>
+<!-- results_30000&#45;&gt;out_logfile -->
+<g id="edge29" class="edge">
+<title>results_30000-&gt;out_logfile</title>
+<path fill="none" stroke="black" d="M793.86,-528.94C822.85,-517.79 863.37,-502.21 894.24,-490.34"/>
+<polygon fill="black" stroke="black" points="895.23,-493.7 903.3,-486.85 892.71,-487.17 895.23,-493.7"/>
+</g>
+<!-- losses_parquet -->
+<g id="node21" class="node">
+<title>losses_parquet</title>
+<ellipse fill="none" stroke="black" cx="1078.03" cy="-472.11" rx="67.89" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1078.03" y="-467.91" font-family="Times,serif" font-size="14.00">losses_parquet</text>
+</g>
+<!-- results_30000&#45;&gt;losses_parquet -->
+<g id="edge30" class="edge">
+<title>results_30000-&gt;losses_parquet</title>
+<path fill="none" stroke="black" d="M807.04,-532.3C856.37,-521.62 933.91,-504.81 1001.03,-490.11 1005.9,-489.04 1010.94,-487.93 1016.01,-486.82"/>
+<polygon fill="black" stroke="black" points="1016.6,-490.27 1025.61,-484.71 1015.09,-483.44 1016.6,-490.27"/>
+</g>
+<!-- run_yaml -->
+<g id="node22" class="node">
+<title>run_yaml</title>
+<ellipse fill="none" stroke="black" cx="581.03" cy="-472.11" rx="48.05" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="581.03" y="-467.91" font-family="Times,serif" font-size="14.00">run_yaml</text>
+</g>
+<!-- results_30000&#45;&gt;run_yaml -->
+<g id="edge31" class="edge">
+<title>results_30000-&gt;run_yaml</title>
+<path fill="none" stroke="black" d="M720.99,-528.77C692.77,-517.55 653.46,-501.91 623.68,-490.07"/>
+<polygon fill="black" stroke="black" points="625.17,-486.9 614.58,-486.45 622.58,-493.4 625.17,-486.9"/>
+</g>
+<!-- dir_projects_p_scads_nas -->
+<g id="node17" class="node">
+<title>dir_projects_p_scads_nas</title>
+<ellipse fill="none" stroke="black" cx="545.03" cy="-400.11" rx="110.27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="545.03" y="-395.91" font-family="Times,serif" font-size="14.00">dir_projects_p_scads_nas</text>
+</g>
+<!-- zip&#45;&gt;dir_projects_p_scads_nas -->
+<g id="edge26" class="edge">
+<title>zip-&gt;dir_projects_p_scads_nas</title>
+<path fill="none" stroke="black" d="M500.4,-455.92C507.25,-447.51 515.95,-436.82 523.84,-427.12"/>
+<polygon fill="black" stroke="black" points="526.53,-429.37 530.13,-419.41 521.1,-424.95 526.53,-429.37"/>
+</g>
+<!-- Scads_ai_nextcloud_AutoencodixTuning -->
+<g id="node18" class="node">
+<title>Scads_ai_nextcloud_AutoencodixTuning</title>
+<ellipse fill="none" stroke="black" cx="246.03" cy="-400.11" rx="170.88" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="246.03" y="-395.91" font-family="Times,serif" font-size="14.00">Scads_ai_nextcloud_AutoencodixTuning</text>
+</g>
+<!-- zip&#45;&gt;Scads_ai_nextcloud_AutoencodixTuning -->
+<g id="edge27" class="edge">
+<title>zip-&gt;Scads_ai_nextcloud_AutoencodixTuning</title>
+<path fill="none" stroke="black" d="M463.49,-464.01C428.64,-453.93 363.48,-435.08 313.54,-420.64"/>
+<polygon fill="black" stroke="black" points="314.52,-417.28 303.94,-417.86 312.58,-424 314.52,-417.28"/>
+</g>
+<!-- f02_gather_results_py -->
+<g id="node23" class="node">
+<title>f02_gather_results_py</title>
+<ellipse fill="none" stroke="black" cx="883.03" cy="-400.11" rx="97.39" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="883.03" y="-395.91" font-family="Times,serif" font-size="14.00">f02_gather_results_py</text>
+</g>
+<!-- ml_task_performance_txt&#45;&gt;f02_gather_results_py -->
+<g id="edge32" class="edge">
+<title>ml_task_performance_txt-&gt;f02_gather_results_py</title>
+<path fill="none" stroke="black" d="M787.21,-454.34C804.09,-444.97 825.32,-433.17 843.51,-423.06"/>
+<polygon fill="black" stroke="black" points="845.17,-426.15 852.21,-418.23 841.77,-420.03 845.17,-426.15"/>
+</g>
+<!-- out_logfile&#45;&gt;f02_gather_results_py -->
+<g id="edge33" class="edge">
+<title>out_logfile-&gt;f02_gather_results_py</title>
+<path fill="none" stroke="black" d="M925.76,-454.52C919.16,-446.27 911.04,-436.12 903.65,-426.88"/>
+<polygon fill="black" stroke="black" points="906.52,-424.87 897.54,-419.25 901.05,-429.24 906.52,-424.87"/>
+</g>
+<!-- losses_parquet&#45;&gt;f02_gather_results_py -->
+<g id="edge34" class="edge">
+<title>losses_parquet-&gt;f02_gather_results_py</title>
+<path fill="none" stroke="black" d="M1039.04,-457.11C1009.78,-446.61 969.37,-432.1 937,-420.48"/>
+<polygon fill="black" stroke="black" points="938.39,-417.26 927.79,-417.18 936.02,-423.85 938.39,-417.26"/>
+</g>
+<!-- run_yaml&#45;&gt;f02_gather_results_py -->
+<g id="edge35" class="edge">
+<title>run_yaml-&gt;f02_gather_results_py</title>
+<path fill="none" stroke="black" d="M617.1,-459.9C624.02,-457.87 631.23,-455.85 638.03,-454.11 694.14,-439.69 758.15,-425.94 806.67,-416.05"/>
+<polygon fill="black" stroke="black" points="807.13,-419.53 816.23,-414.12 805.74,-412.67 807.13,-419.53"/>
+</g>
+<!-- (vanillix_results) -->
+<g id="node24" class="node">
+<title>(vanillix_results)</title>
+<ellipse fill="none" stroke="black" cx="770.03" cy="-328.11" rx="77.01" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="770.03" y="-323.91" font-family="Times,serif" font-size="14.00">(vanillix_results)</text>
+</g>
+<!-- f02_gather_results_py&#45;&gt;(vanillix_results) -->
+<g id="edge36" class="edge">
+<title>f02_gather_results_py-&gt;(vanillix_results)</title>
+<path fill="none" stroke="black" d="M855.96,-382.34C841.04,-373.1 822.32,-361.5 806.16,-351.49"/>
+<polygon fill="black" stroke="black" points="808.12,-348.58 797.77,-346.29 804.43,-354.53 808.12,-348.58"/>
+</g>
+<!-- (varix_results) -->
+<g id="node25" class="node">
+<title>(varix_results)</title>
+<ellipse fill="none" stroke="black" cx="996.03" cy="-328.11" rx="67.35" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="996.03" y="-323.91" font-family="Times,serif" font-size="14.00">(varix_results)</text>
+</g>
+<!-- f02_gather_results_py&#45;&gt;(varix_results) -->
+<g id="edge37" class="edge">
+<title>f02_gather_results_py-&gt;(varix_results)</title>
+<path fill="none" stroke="black" d="M910.1,-382.34C925.24,-372.96 944.29,-361.16 960.6,-351.05"/>
+<polygon fill="black" stroke="black" points="962.4,-354.05 969.06,-345.81 958.72,-348.1 962.4,-354.05"/>
+</g>
+<!-- real_ae_results_vanillix_schc_METH_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_schc_RNA_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_DNA_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_METH_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_RNA_parquet -->
+<g id="node26" class="node">
+<title>real_ae_results_vanillix_schc_METH_parquet
+    real_ae_results_vanillix_schc_RNA_parquet
+    real_ae_results_vanillix_tcga_DNA_parquet
+    real_ae_results_vanillix_tcga_METH_parquet
+    real_ae_results_vanillix_tcga_RNA_parquet</title>
+<ellipse fill="none" stroke="black" cx="642.03" cy="-209.05" rx="204.84" ry="65.05"/>
+<text xml:space="preserve" text-anchor="middle" x="642.03" y="-238.45" font-family="Times,serif" font-size="14.00">real_ae_results_vanillix_schc_METH_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="642.03" y="-221.65" font-family="Times,serif" font-size="14.00">    real_ae_results_vanillix_schc_RNA_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="642.03" y="-204.85" font-family="Times,serif" font-size="14.00">    real_ae_results_vanillix_tcga_DNA_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="642.03" y="-188.05" font-family="Times,serif" font-size="14.00">    real_ae_results_vanillix_tcga_METH_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="642.03" y="-171.25" font-family="Times,serif" font-size="14.00">    real_ae_results_vanillix_tcga_RNA_parquet</text>
+</g>
+<!-- (vanillix_results)&#45;&gt;real_ae_results_vanillix_schc_METH_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_schc_RNA_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_DNA_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_METH_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_RNA_parquet -->
+<g id="edge38" class="edge">
+<title>(vanillix_results)-&gt;real_ae_results_vanillix_schc_METH_parquet
+    real_ae_results_vanillix_schc_RNA_parquet
+    real_ae_results_vanillix_tcga_DNA_parquet
+    real_ae_results_vanillix_tcga_METH_parquet
+    real_ae_results_vanillix_tcga_RNA_parquet</title>
+<path fill="none" stroke="black" d="M751.69,-310.34C742.13,-301.59 729.73,-290.26 716.73,-278.37"/>
+<polygon fill="black" stroke="black" points="719.43,-276.1 709.69,-271.93 714.71,-281.26 719.43,-276.1"/>
+</g>
+<!-- real_ae_results_varix_schc_METH_parquet
+ &#160;&#160;&#160;real_ae_results_varix_schc_RNA_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_DNA_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_METH_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_RNA_parquet -->
+<g id="node29" class="node">
+<title>real_ae_results_varix_schc_METH_parquet
+    real_ae_results_varix_schc_RNA_parquet
+    real_ae_results_varix_tcga_DNA_parquet
+    real_ae_results_varix_tcga_METH_parquet
+    real_ae_results_varix_tcga_RNA_parquet</title>
+<ellipse fill="none" stroke="black" cx="1147.03" cy="-209.05" rx="194.94" ry="65.05"/>
+<text xml:space="preserve" text-anchor="middle" x="1147.03" y="-238.45" font-family="Times,serif" font-size="14.00">real_ae_results_varix_schc_METH_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="1147.03" y="-221.65" font-family="Times,serif" font-size="14.00">    real_ae_results_varix_schc_RNA_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="1147.03" y="-204.85" font-family="Times,serif" font-size="14.00">    real_ae_results_varix_tcga_DNA_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="1147.03" y="-188.05" font-family="Times,serif" font-size="14.00">    real_ae_results_varix_tcga_METH_parquet</text>
+<text xml:space="preserve" text-anchor="middle" x="1147.03" y="-171.25" font-family="Times,serif" font-size="14.00">    real_ae_results_varix_tcga_RNA_parquet</text>
+</g>
+<!-- (varix_results)&#45;&gt;real_ae_results_varix_schc_METH_parquet
+ &#160;&#160;&#160;real_ae_results_varix_schc_RNA_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_DNA_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_METH_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_RNA_parquet -->
+<g id="edge41" class="edge">
+<title>(varix_results)-&gt;real_ae_results_varix_schc_METH_parquet
+    real_ae_results_varix_schc_RNA_parquet
+    real_ae_results_varix_tcga_DNA_parquet
+    real_ae_results_varix_tcga_METH_parquet
+    real_ae_results_varix_tcga_RNA_parquet</title>
+<path fill="none" stroke="black" d="M1017.34,-310.58C1029.39,-301.25 1045.32,-288.89 1061.89,-276.05"/>
+<polygon fill="black" stroke="black" points="1063.64,-279.13 1069.4,-270.24 1059.35,-273.6 1063.64,-279.13"/>
+</g>
+<!-- syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py -->
+<g id="node27" class="node">
+<title>syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py</title>
+<ellipse fill="none" stroke="black" cx="469.03" cy="-90" rx="378.47" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="469.03" y="-85.8" font-family="Times,serif" font-size="14.00">syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py</text>
+</g>
+<!-- real_ae_results_vanillix_schc_METH_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_schc_RNA_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_DNA_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_METH_parquet
+ &#160;&#160;&#160;real_ae_results_vanillix_tcga_RNA_parquet&#45;&gt;syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py -->
+<g id="edge39" class="edge">
+<title>real_ae_results_vanillix_schc_METH_parquet
+    real_ae_results_vanillix_schc_RNA_parquet
+    real_ae_results_vanillix_tcga_DNA_parquet
+    real_ae_results_vanillix_tcga_METH_parquet
+    real_ae_results_vanillix_tcga_RNA_parquet-&gt;syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py</title>
+<path fill="none" stroke="black" d="M555.78,-149.7C537.45,-137.3 519.11,-124.88 504.04,-114.69"/>
+<polygon fill="black" stroke="black" points="506.14,-111.89 495.9,-109.18 502.22,-117.68 506.14,-111.89"/>
+</g>
+<!-- HOME_blackbox_repository_autoencodix_vanillix_files -->
+<g id="node28" class="node">
+<title>HOME_blackbox_repository_autoencodix_vanillix_files</title>
+<ellipse fill="none" stroke="black" cx="469.03" cy="-18" rx="231.49" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="469.03" y="-13.8" font-family="Times,serif" font-size="14.00">HOME_blackbox_repository_autoencodix_vanillix_files</text>
+</g>
+<!-- syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py&#45;&gt;HOME_blackbox_repository_autoencodix_vanillix_files -->
+<g id="edge40" class="edge">
+<title>syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py-&gt;HOME_blackbox_repository_autoencodix_vanillix_files</title>
+<path fill="none" stroke="black" d="M469.03,-71.7C469.03,-64.41 469.03,-55.73 469.03,-47.54"/>
+<polygon fill="black" stroke="black" points="472.53,-47.62 469.03,-37.62 465.53,-47.62 472.53,-47.62"/>
+</g>
+<!-- syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py -->
+<g id="node30" class="node">
+<title>syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py</title>
+<ellipse fill="none" stroke="black" cx="1234.03" cy="-90" rx="368.81" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1234.03" y="-85.8" font-family="Times,serif" font-size="14.00">syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py</text>
+</g>
+<!-- real_ae_results_varix_schc_METH_parquet
+ &#160;&#160;&#160;real_ae_results_varix_schc_RNA_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_DNA_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_METH_parquet
+ &#160;&#160;&#160;real_ae_results_varix_tcga_RNA_parquet&#45;&gt;syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py -->
+<g id="edge42" class="edge">
+<title>real_ae_results_varix_schc_METH_parquet
+    real_ae_results_varix_schc_RNA_parquet
+    real_ae_results_varix_tcga_DNA_parquet
+    real_ae_results_varix_tcga_METH_parquet
+    real_ae_results_varix_tcga_RNA_parquet-&gt;syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py</title>
+<path fill="none" stroke="black" d="M1193.59,-145.41C1200.9,-135.57 1208.11,-125.88 1214.36,-117.47"/>
+<polygon fill="black" stroke="black" points="1217.15,-119.58 1220.31,-109.46 1211.53,-115.4 1217.15,-119.58"/>
+</g>
+<!-- HOME_blackbox_repository_autoencodix_varix_files -->
+<g id="node31" class="node">
+<title>HOME_blackbox_repository_autoencodix_varix_files</title>
+<ellipse fill="none" stroke="black" cx="1234.03" cy="-18" rx="221.83" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1234.03" y="-13.8" font-family="Times,serif" font-size="14.00">HOME_blackbox_repository_autoencodix_varix_files</text>
+</g>
+<!-- syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py&#45;&gt;HOME_blackbox_repository_autoencodix_varix_files -->
+<g id="edge43" class="edge">
+<title>syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py-&gt;HOME_blackbox_repository_autoencodix_varix_files</title>
+<path fill="none" stroke="black" d="M1234.03,-71.7C1234.03,-64.41 1234.03,-55.73 1234.03,-47.54"/>
+<polygon fill="black" stroke="black" points="1237.53,-47.62 1234.03,-37.62 1230.53,-47.62 1237.53,-47.62"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,49 @@
+# This is s GraphViz fie.
+# Use Graphbiz dotty to convert to a Graph picture.
+# e.g. at https://dreampuf.github.io/GraphvizOnline/
+
+digraph G {
+
+file_00_common_hpo_paramset_py -> hyperparam_configs_5000_parquet;
+
+hp_combinations_3000 -> file_01_create_yaml_for_data_scenario_tasks_py;
+
+file_01_create_yaml_for_data_scenario_tasks_py -> yaml_30000_for_autoencodix;
+
+hyperparam_configs_5000_parquet -> file_01_create_yaml_for_data_scenario_tasks_py;
+
+  hp_combinations_3000 -> { varix; vanillix  } -> { tcga_rna; tcga_meth; tcga_dna; schc_rna; schc_meth } -> yaml_30000_for_autoencodix;
+  
+    autoencodix_venv -> TUD_Cluster;
+
+  yaml_30000_for_autoencodix -> TUD_Cluster -> results_30000;
+  
+  results_30000 -> zip -> { dir_projects_p_scads_nas; Scads_ai_nextcloud_AutoencodixTuning }
+  
+  results_30000 -> {ml_task_performance_txt; out_logfile; losses_parquet; run_yaml } -> f02_gather_results_py;
+  
+   f02_gather_results_py -> { "(vanillix_results)"; "(varix_results)" }
+       
+    "(vanillix_results)" -> {
+       
+    "real_ae_results_vanillix_schc_METH_parquet
+    real_ae_results_vanillix_schc_RNA_parquet
+    real_ae_results_vanillix_tcga_DNA_parquet
+    real_ae_results_vanillix_tcga_METH_parquet
+    real_ae_results_vanillix_tcga_RNA_parquet"
+    } -> syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_vanillix_import_py
+    -> HOME_blackbox_repository_autoencodix_vanillix_files
+    
+    "(varix_results)" -> 
+    {
+
+    "real_ae_results_varix_schc_METH_parquet
+    real_ae_results_varix_schc_RNA_parquet
+    real_ae_results_varix_tcga_DNA_parquet
+    real_ae_results_varix_tcga_METH_parquet
+    real_ae_results_varix_tcga_RNA_parquet"
+       
+   } -> syne_tune_syne_tune_blackbox_repository_conversion_scripts_scripts_ae_varix_import_py
+    -> HOME_blackbox_repository_autoencodix_varix_files
+
+}
